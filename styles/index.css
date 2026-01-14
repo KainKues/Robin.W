@@ -101,6 +101,10 @@ body{
         max-width: 1440px;
         padding: 0 72px;
     }  
+
+    .ordinary-section{
+        padding: 120px 0;
+    }
 }
 
 /* ПЛАНШЕТ */
@@ -110,7 +114,5 @@ body{
 
 /* DESKTOP */
 @media(min-width:1200px){
-    .ordinary-section{
-        padding: 120px 0;
-    }
+    
 }

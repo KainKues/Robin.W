@@ -1,0 +1,41 @@
+.sites__link{
+    border: 1px solid var(--level-1);
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sites{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 -20px;
+}
+
+.sites__image{
+   text-align: center;
+}
+
+/* ПЛАНШЕТ */
+@media(min-width:768px){
+    .sites{
+        margin: 0 -40px;
+    }
+
+}
+
+/* DESKTOP */
+@media(min-width:1200px){
+    .sites{
+        margin: 0 -72px;
+        display: flex;
+    }
+
+    .sites__link{
+        flex: 1;
+    }
+
+}
+    
