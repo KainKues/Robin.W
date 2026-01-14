@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  24px 0;
+}
+
+.header__menu{
+    display: none;
+}
+
+/* ПЛАНШЕТ */
+@media(min-width:768px){
+    .header{
+        padding: 32px 0;
+    }
+
+    .header__menu{
+        display: flex;
+        gap: 48px;
+        
+    }
+    .header__hid-menu{
+        display: none;
+    }
+
+    .header__link{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--white);
+    }
+
+    .header__link--colored{
+        background-color:var(--purple);
+        display: block;
+        margin: -32px -24px;
+        padding: 32px 24px;
+    }
+
+    
+
+}
+
+/* DESKTOP */
+@media(min-width:1200px){
+
+}

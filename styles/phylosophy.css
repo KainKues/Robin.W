@@ -1,0 +1,58 @@
+.colored-section{
+    background: var(--peach-accent);
+    margin: 0 -20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colored-section__wrapper{
+    padding: 48px 20px;
+}
+
+.colored-section__text{
+    margin-top: 24px;
+    margin-bottom: 90px;
+}
+
+.colored-section__image{
+    object-fit: cover;
+    max-height: 450px;
+}
+
+/* ПЛАНШЕТ */
+@media(min-width:768px){
+    .colored-section{
+        margin: 0 -40px;
+        flex-direction: row;
+    }
+    .colored-section__wrapper{
+        padding: 80px 40px;
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .colored-section__image{
+        max-height: 600px;
+        flex: 1;
+    }
+
+    .colored-section__text{
+        margin-bottom: 67px;
+    }
+
+}
+
+/* DESKTOP */
+@media(min-width:1200px){
+    .colored-section{
+        margin: 0 -72px;
+    }
+
+    .colored-section__wrapper{
+        padding: 120px 72px;
+    }
+
+    .colored-section__text{
+        margin-bottom: 134px;
+    }
+}

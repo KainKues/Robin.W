@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);;
+}
+
+:root {
+  --font-family: "Sen", sans-serif;
+  --second-family: "Bahnschrift", sans-serif;
+}
+
+:root {
+	--black: #000;
+	--level-1: #181823;
+	--white: #fff;
+	--purple: #5221e6;
+	--light-grey: #8491a0;
+	--dark-grey: #5b6876;
+	--green-accent: #3cc74e;
+	--blue-accent: #609bff;
+	--pink-accent: #e95d90;
+	--peach-accent: #fff3e4;
+	--violet-accent: #fbe4ff;
+}
+
+body{
+    background-color: var(--black);;
+}
+
+.container{
+    max-width: 360px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.pre-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: var(--light-grey);
+    margin-bottom: 8px;
+}
+
+.section-title{
+    font-weight:700;
+    font-size: 32px;
+}
+
+.section-title--white{
+    color: var(--white);
+}
+
+.section-title--black{
+    color: var(--level-1);
+}
+
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--light-grey);
+}
+
+.more-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--level-1);
+    border-bottom: 1px solid var(--light-grey);
+}
+
+
+/* ПЛАНШЕТ */
+@media(min-width:768px){
+    .container{
+        max-width: 768px;
+        padding: 0 40px;
+    }    
+
+    .section-title{
+        font-weight: 700;
+        font-size: 55px;
+    }
+}
+
+/* DESKTOP */
+@media(min-width:1200px){
+    .container{
+        max-width: 1440px;
+        padding: 0 72px;
+    }  
+}
+
+/* ПЛАНШЕТ */
+@media(min-width:768px){
+
+}
+
+/* DESKTOP */
+@media(min-width:1200px){
+
+}

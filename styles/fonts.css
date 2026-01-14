@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Sen';
+    src: url(../fonts/Sen/Sen-Regular.eot);
+    src: url(../fonts/Sen/Sen-Regular.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Sen/Sen-Regular.woff2) format('woff2'),
+         url(../fonts/Sen/Sen-Regular.woff) format('woff'),
+         url(../fonts/Sen/Sen-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sen';
+    src: url(../fonts/Sen/Sen-Bold.eot);
+    src: url(../fonts/Sen/Sen-Bold.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Sen/Sen-Bold.woff2) format('woff2'),
+         url(../fonts/Sen/Sen-Bold.woff) format('woff'),
+         url(../fonts/Sen/Sen-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url(../fonts/Bahnschrift/Bahnschrift.eot);
+    src: url(../fonts/Bahnschrift/Bahnschrift.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Bahnschrift/Bahnschrift.woff2) format('woff2'),
+         url(../fonts/Bahnschrift/Bahnschrift.woff) format('woff'),
+         url(../fonts/Bahnschrift/Bahnschrift.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
