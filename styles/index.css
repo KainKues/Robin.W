@@ -73,6 +73,10 @@ body{
 }
 
 
+.ordinary-section{
+    padding: 48px 0;
+}
+
 /* ПЛАНШЕТ */
 @media(min-width:768px){
     .container{
@@ -84,6 +88,11 @@ body{
         font-weight: 700;
         font-size: 55px;
     }
+
+    .ordinary-section{
+        padding: 80px 0;
+    }
+
 }
 
 /* DESKTOP */
@@ -101,5 +110,7 @@ body{
 
 /* DESKTOP */
 @media(min-width:1200px){
-
+    .ordinary-section{
+        padding: 120px 0;
+    }
 }

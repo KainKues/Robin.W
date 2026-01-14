@@ -1,0 +1,54 @@
+.skillset{
+    padding: 64px 0;
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+}
+
+.skillset__title{
+    margin: 14px 0 16px;
+}
+
+.skillset__label{
+    margin: 24px 0 12px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--white);
+    }
+
+/* ПЛАНШЕТ */
+@media(min-width:768px){
+    .skillset{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .skillset__block{
+        flex-basis: calc(50% - 12px);
+    }
+
+    .skillset__wrapper{
+        margin-bottom: 24px;
+    }
+
+    .skillset__title{
+        margin: 0 0 24px;
+    }
+}
+
+/* DESKTOP */
+@media(min-width:1200px){
+    .skillset{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 72px;
+        grid-row-gap: 48px;
+    }
+    
+    .skillset__wrapper{
+        grid-row: 1 / -1;
+    }
+}
