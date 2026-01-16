@@ -76,6 +76,20 @@ body{
     color: var(--white);
 }
 
+.button{
+    border: 1px solid var(--purple);
+    padding: 24px 32px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.button--colored{
+    background: var(--purple);
+}
 
 .ordinary-section{
     padding: 48px 0;
