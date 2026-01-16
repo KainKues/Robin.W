@@ -61,13 +61,5 @@
     .project__button{
         display: block;
         margin: 67px auto;
-        border: 1px solid var(--purple);
-        padding: 24px 32px;
-        background-color: transparent;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 150%;
-        text-transform: uppercase;
-        color: var(--white);
     }
 }
