@@ -5,6 +5,11 @@
     padding:  24px 0;
 }
 
+.header__logo{
+    width: 78px;
+    height: auto;
+}
+
 .header__menu{
     display: none;
 }
